@@ -52,6 +52,7 @@ img {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
     /* outline: 2px solid teal; */
 }
 
@@ -436,11 +437,13 @@ img {
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
+    
 }
 
- 
+ .social-item {
+    padding-right: 32px;
+    padding-left: 32px;
+ }
 
 /* section clients */
 
@@ -497,10 +500,18 @@ img {
 .filter-btn:focus {
     background-color: var(--accent-color);
     color: var(--action-white-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .project {
     text-decoration: none;
+}
+
+.project:hover,
+.project:focus {
+    border: 1px solid #EEE;
+    background: var(--action-white-color);
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .benefits {
@@ -569,8 +580,9 @@ img {
 /* footer */
 
  .footer-container {
-     display: inline-flex;
-     align-items: flex-start;
+    display: flex;
+    align-items: baseline;
+    
  }
 
 .logo-link {
