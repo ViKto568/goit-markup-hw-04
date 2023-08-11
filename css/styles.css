@@ -369,6 +369,8 @@ img {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right: 32px;
+    padding-left: 32px;
     /* outline: 2px solid teal; */
 }
 
@@ -436,14 +438,13 @@ img {
 .social-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 16px;
-    
+    margin-top: 16px;  
 }
 
- .social-item {
+ /* .social-item {
     padding-right: 32px;
     padding-left: 32px;
- }
+ } */
 
 /* section clients */
 
